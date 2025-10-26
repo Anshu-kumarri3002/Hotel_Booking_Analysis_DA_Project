@@ -1,0 +1,47 @@
+📂 Dataset Description
+
+The dataset used in this project contains detailed records of hotel bookings from both City Hotels and Resort Hotels. It includes customer details, booking information, and reservation outcomes, helping analyze trends in guest behavior, cancellations, and occupancy rates.
+
+Columns Included:
+
+hotel: Type of hotel (City Hotel or Resort Hotel).
+
+is_canceled: Indicates whether the booking was canceled (1) or not (0).
+
+Arrival Date Year / Month: Year and month of the guest’s arrival.
+
+adults, children, babies: Number of guests per booking.
+
+country: Country of the guest’s origin.
+
+distribution_channel: Source through which the booking was made (e.g., Online TA, Direct).
+
+reserved_room_type / assigned_room_type: Type of room reserved vs. assigned.
+
+booking_changes: Number of changes made to the booking.
+
+deposit_type: Deposit policy applied (e.g., No Deposit, Non Refund).
+
+agent / company: Agent or company involved in the booking (if any).
+
+days_in_waiting_list: Days the booking remained on the waiting list.
+
+customer_type: Type of customer (e.g., Transient, Contract, Group).
+
+adr (Average Daily Rate): Revenue earned per night per room.
+
+required_car_parking_spaces: Number of parking spaces requested.
+
+total_of_special_requests: Total special requests made by the guest.
+
+reservation_status / reservation_status_date: Final status and date of the reservation.
+
+name, email, phone-number: Guest’s personal contact details.
+
+credit_card: Credit card information (masked).
+
+room_status: Final condition or availability status of the room.
+
+guest_type: Identifies whether the guest is a new or returning customer.
+
+This dataset is used for data cleaning, exploration, and visualization within Excel using Pivot Tables and Dashboards to uncover insights about hotel performance, customer behavior, and cancellation trends.
